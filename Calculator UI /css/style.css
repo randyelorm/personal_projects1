@@ -1,0 +1,136 @@
+body {
+
+    background-color: teal;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20vh;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 4rem;
+}
+
+.top {
+    margin-top: 0;
+    background-color: black;
+    height: 70px;
+    text-align: right;
+    color:white;
+    font-size: 5rem;
+    margin-bottom: 0px;
+    border: 1px solid black;
+   
+    
+   
+    
+}
+
+
+
+.cols {
+    margin-top: 0px;
+    height:60px;
+    background-color: #f2f2f2;
+    border:2px solid black;
+    text-align: center;
+    color:black;
+    font-size: 3rem;
+    border:2px solid black;
+
+}
+
+.cols_for_0 {
+    margin-top: 0px;
+    height:60px;
+    background-color: #f2f2f2;
+    
+text-align: center;
+    color:black;
+    font-size: 3rem;
+    border:2px solid black;
+    box-shadow: 0px 3px #050404;
+
+}
+
+.cols_for_0:hover {
+    background: turquoise;
+    transition: all 0.3s ease;
+}
+
+
+.cols_for_dot {
+    margin-top: 0px;
+    height:60px;
+    background-color: #f2f2f2;
+    border: 1px solid grey;
+    text-align: center;
+    color:black;
+    font-size: 3rem;
+    border:2px solid black;
+    box-shadow: 0px 3px #050404;
+   
+
+}
+
+.cols_for_dot:hover {
+    background: turquoise;
+    transition: all 0.3s ease;
+}
+
+
+.cols:hover {
+    background: turquoise;
+    transition: all 0.3s ease;
+}
+
+
+
+.row_last_col{
+  
+    height:60px;
+    background-color: orange;
+    text-align:center;
+    color:white;
+    font-size: 3rem;
+    border: 1px solid grey;
+    border-right:2px solid black;
+    
+    
+
+
+}
+
+.cols-for-equal_to {
+ 
+    height:60px;
+    background-color: orange;
+    text-align:center;
+    color:white;
+    font-size: 3rem;
+    border: 1px solid grey;
+    border-right:2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 3px #050404;
+
+
+}
+
+.cols-for-equal_to:hover {
+ 
+    background: turquoise;
+    transition: all 0.3s ease;
+
+
+}
+
+
+
+
+
+.row_last_col:hover{
+  
+    background: turquoise;
+    transition: all 0.3s ease;
+
+}
