@@ -1,0 +1,93 @@
+* {
+	background-color:#Bfe2fd;
+	margin: 10px 80px;
+}
+
+span { background-color: white;
+	   color:red; 
+	   margin:4px;
+}
+
+.mother {
+
+	font-family: ;
+    
+}
+
+/*Heading and paragraph*/
+.heading {
+border: 1px solid;
+background-color: white;
+border-radius: 10px;
+padding: 40px;
+border-top: 20px solid #0066CC;
+
+}
+
+.heading h1 {
+
+background-color: white;
+margin:4px;
+}
+
+.heading p {
+
+background-color: white;
+margin: 4px;
+}
+
+
+
+
+/*Label containers*/
+.label_mama {
+
+border: 1px solid;
+border-radius: 10px;
+background-color: white;
+padding: 30px;
+
+
+
+
+}
+
+
+/*Label and input themselves*/
+
+.inputs {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin:4px;
+    padding:15px; 
+}
+
+.radio_inputs {
+ 
+ margin:4px;
+ padding: 10px;
+
+}
+
+.labels {
+	background-color:white;
+	margin:4px;
+
+
+}
+
+
+
+
+.submit {
+
+	background-color: #3399FF;
+	color:white;
+	padding: 15px;
+	border-radius:10px;
+	width: 20%;
+}
+
+
+
