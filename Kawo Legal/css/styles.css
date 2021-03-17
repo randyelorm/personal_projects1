@@ -1,0 +1,194 @@
+
+/* Home Page */
+.home_page_image {
+  
+    position: relative;
+   
+}
+
+.background_spread{
+    background-color: rgba(49, 12, 12, 0.76);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Navbar */
+.logo {
+    height:50px;
+    margin-left: 50px;
+
+}
+
+.navbar_main_container {
+    
+    position:absolute;
+    position:fixed;
+    z-index:999;
+    width: 100%;
+    border:0px;
+    background-color: transparent;
+    top: 10px;
+  
+}
+      
+.nav_links {
+    margin-right: 3rem;
+}
+
+.navbar_main_container .navbar-nav > li > a {
+    color: red;
+    font-size: 2rem;
+    
+   
+    
+  
+}
+
+.navbar_main_container .navbar-nav > li > a:hover{
+    
+    color:red;
+    border: 1px solid red;
+    transition: all 0.3s ease;
+  
+  
+}
+
+.carousel-inner {
+    height: 85vh;
+}
+
+.kawolegal {
+    font-size: 40px;
+    position: absolute;
+    top: 220px;
+    left: 610px; 
+    color:white;
+    z-index: 999;
+   
+ 
+}
+
+.home_text {
+
+    position: absolute;
+    text-align: center;
+    top: 280px;
+    left: 480px;
+    font-size: 30px;
+    z-index: 999;
+    color:white;
+    
+    
+
+    
+}
+
+.home_text2 {
+    position: absolute;
+    text-align: center;
+    top: 310px;
+    left: 520px;
+    font-size: 30px;
+    z-index: 999;
+    color:white;
+
+    
+    
+}
+
+.register_now_container {
+
+    position: absolute;
+    text-align: center;
+    top: 370px;
+    left: 570px;
+    font-size: 30px;
+    z-index: 999;
+  
+   
+    
+   
+
+}
+
+.register_now {
+    background-color: rgb(21, 179, 231);
+    padding-right: 40px;
+    padding-left: 40px;
+    color:white;
+    height: 60px;
+    width: 300px;
+    font-size: 3rem;
+}
+
+
+
+
+/* Home Page Footer */
+
+.footer_container{
+    background-color: #711628;
+
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.all_footer {
+
+    width: 100%;
+    margin-bottom: 0px;
+
+
+}
+
+.social_media_container {
+    
+ 
+    float: right;
+    margin-right: 15rem;
+    margin-left: 0px;
+    display:inline;
+    margin-top: 1rem ;
+
+}
+
+.social_media_links  {
+
+    padding: 18px;
+
+    margin-top: 0px;
+    
+
+    font-size: 4rem i ; 
+  
+   
+  
+}
+
+.fa {
+    font-size: 2rem !important;
+}
+
+.rights_container {
+    margin-left:15rem;
+    margin-top: 3rem ;
+}
+
+.rights {
+    
+   
+    display:inline;
+    color:white;
+    
+}
