@@ -104,7 +104,19 @@
    /*Thumbnails*/
 .thumbnail {
   position: relative;
+ 
+
+ 
 }
+
+
+.thumbnail:hover {
+
+transform: scale(1.075);
+transition: 0.3s ease;
+cursor: pointer;
+}
+
 
 .yellow_bar {
 
