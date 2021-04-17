@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LinkedIn Clone</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+         <!-- Everything Navbar -->
+
+    <div class="container-fluid">
+    
+        <div class="row">
+        
+            <div class="col-lg-12 nav_container">
+                <nav class="navbar navbar-default inside_navbar_container">
+                    <div class="container inside_inside_nav_container">
+                     
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand " href="#"> <i class="fab fa-linkedin linkedin-icon"></i> </a>
+                      </div>
+
+                      <form class="navbar-form navbar-left search_bar_container">
+
+                         
+                            <div class="form-group">
+                              <i class="fas fa-search search_icon"></i>
+                              <input type="text" class="form-control search_bar" placeholder="Search" size= "30">
+                             
+                            </div>
+
+                       
+                
+                      </form>
+
+                      
+                    
+                      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right nav_bar_links_box">
+                          <li  class = " " ><a href="#" class = "home" >  <i class="fas fa-igloo nav_icon1"> </i> <span class = "nav_links_text">Home </span> </a></li>
+                          <li  class = " " ><a href="#" class = "home" >  <i class="fas fa-people-arrows nav_icon2"></i> <span class = "nav_links_text">My Network</span> </a></li>
+                          <li  class = " " ><a href="#" class = "home" >  <i class="fas fa-briefcase nav_icon3"></i> <span class = "nav_links_text">Jobs </span> </a></li>
+                          <li  class = " " ><a href="#" class = "home" >  <i class="fas fa-envelope-square nav_icon4"> </i> <span class = "nav_links_text">Messaging </span> </a></li>
+                          <li  class = " " ><a href="#" class = "home" >  <i class="fas fa-bell nav_icon5"> </i> <span class = "nav_links_text">Notifications</span> </a></li>
+              
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">  <img src="Images/pro.jpeg" class = "profile_pic"alt="">Me<span class="caret"></span> </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                  
+                                  <a href="#"> 
+                                    <img src="Images/pro.jpeg" class = "me_picture"alt=""> <span class ="randy_dav">  Randy Davoh </span>
+                                    <div class = "me_dropdown_profile_accolades">  Software Engineerng <br>  Trainee at CodeTrain | 
+                                    <br> Petroleum Engineerng <br> Graduate | HTML | CSS 
+                                    <br> | Bootstrap Javascript  </div>                                   
+                                </a>
+                              </li>
+
+
+                                <li><a href="#" class="footer_items"><button type="button" class="btn btn-primary btn-sm  view_pro_btn">
+                                  
+                                    View Profile </button></a></li>
+                                  <hr>
+                                <li class = "account">Account</li>
+                                <li><a href="#">Settings & Privacy</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">Language</a></li>
+
+                                <hr>
+                                <li class = "manage">Manage</li>
+                                <li><a href="#">Posts & Activity</a></li>
+                                <li><a href="#">Job Posting Account</a></li>
+                                <li><a href="#">Language</a></li>
+                                <hr>
+                                <li><a href="#" class = "sign_out">Sign Out</a></li>
+                                
+                                
+                              </ul>
+                      </li>
+                          
+                      
+
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class = "glyphicon glyphicon-th work_dots_icon"></i> Work  <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">   Action  </a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li><a href="#">Something else here</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                            </ul>
+                          </li>
+                          
+                          <li class = "retry_premium_box"> <a href="" class="footer_items"> <span class = "retry_premium">Retry Premium </span> <br> <span class = "free">Free</span> </a> </li>
+                          
+                          
+                          
+                        </ul>
+                        
+                          
+                         
+                      </div>
+                    </div>
+                  </nav>
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- The body -->
+
+<div class="container-fluid main_container">
+  <div class="container container_for_body">
+
+    <div class="row">
+
+             <div class="col-lg-2  left_column_container">
+                          <div class=" left_column_box1">
+
+                                                <div class = "back_drop">
+                                                    <img class = "left_col_pro_back_image back_drop" src="Images/back.jpeg" alt="">
+                                                    <img class = "left_col_pro_image " src="Images/pro.jpeg"  alt="">
+                                                </div>
+
+                                                <br>
+                                                <br>
+
+                                                <h5 class= "text-center pro_name"  >Randy Davoh</h5>
+
+                                                <div class = "profile_accolades"> Software Engineerng Trainee at   CodeTrain | 
+                                                  Petroleum Engineerng  Graduate | HTML | CSS 
+                                                  | Bootstrap | Javascript  
+                                                </div> 
+
+                                                <hr>   
+
+                                                <div class= "views_box">
+                                                      <a class ="profile_views" href = "">  Who viewed your profile <span class = "view_num1">31</span></a>
+                                                      <a class ="video_views" href = "">Views of your video <span class = "view_num2">52</span></a>
+                                                
+                                                </div>  
+
+                                                <hr>
+
+                                                <div class="access_retry_box">
+
+                                                    <a class="access_text" href= "">Access exclusive tools & insights 
+                                                    <span class = "retry_text"> <i class="fas fa-square retry_icon"></i> Retry premium for free</span></a>
+
+                                                
+                                                  
+                                                </div>
+
+                                                <hr>                                                                              
+
+                                              <a class = "my_items" href= ""><i class="fas fa-bookmark items_icon"></i>My Items</a>
+
+                                              <br>
+                                              
+                      </div>   <!--left col1 ends-->
+
+
+                      
+                    <div class=" left_column_box2">
+                    
+                      <div class="recents_box">
+                          <p>Recent<i class="fas fa-chevron-up recent_arrow_icon"></i> </p> <br>
+                          <a href="" class="footer_items"><i class="fas fa-hashtag recents_icon"></i>CodeTrainChallenge</a> <br>
+                          <a href="" class="footer_items"><i class="fas fa-calendar-week recents_icon"></i>Ghana Tech Summit</a> <br>
+                          <a href="" class="footer_items"><i class="fas fa-hashtag recents_icon"></i>100days of Code  </a>  <br>
+                          <a href="" class="footer_items"><i class="fas fa-users recents_icon"></i>Python Developers  </a> 
+                       </div> 
+                        <br>
+                        <br>
+                        <br>
+
+                      <div class = "groups_nd_see_all_box">
+                          
+                            
+                           <a href="" class="groups_text"> <span >Groups</span>  <i class="fas fa-chevron-up groups_arrow_icon"></i></a> <br>
+                           <a href="" class="groups_stuff"><i class="fas fa-users groups_icons"></i>Python Developers.<a> <br>
+                           <a href="" class="groups_stuff"><i class="fas fa-users groups_icons"></i>Web Developers C.. </a> <br>
+                           <a href=""class = "see_all_text">See all</a>
+
+                      </div>
+
+                      <br>
+                      <br>
+                      <a href=""class = "events">Events <i class="fas fa-plus plus_icon"></i></a> <br><br>
+                      <a href="" class="footer_items">Followed Hashtags  <i class="fas fa-chevron-up followed_hash_icon"></i></a>
+                      <br>
+                      <br>
+                      <a href="" class="followed_text"><i class="fas fa-hashtag recents_icon"></i>CodeTrainChallenge</a> <br>
+                      <a href="" class="followed_text"><i class="fas fa-hashtag recents_icon"></i>100days of Code</a> <br>
+                      <a href="" class="followed_text"><i class="fas fa-hashtag recents_icon"></i>Web Development</a> <br> <br>
+                      <a href="" class="show_more">Show More<i class="fas fa-chevron-down show_more_icon"></i></a> <br>
+                      <br>
+                      <br>
+                      <hr>
+                      <a href="" class = "discover_more">Discover More </a>
+                        
+                    </div>   <!-- left col2 ends-->
+
+
+
+                   
+
+                  
+
+            </div>
+
+
+
+
+
+
+                              <!-- Midddle Column -->
+
+                       
+                         <div class="col-lg-6 middle_column_box">
+                           
+
+                                      <div class = "post_box">
+
+                                                  <div>
+                                                      
+                                                 
+                                                  
+                                                      <div class="form-group post_input_box_container">
+                                                        <img class = "post_profile_image" src="Images/pro.jpeg"  alt="">
+                                                        <input type="text" class="form-control post_input_box" placeholder="Start a post">
+                                                      
+                                                      </div>
+                                                      
+                                                      <div class="post_links">
+                                                          <a href="" class="photo_link"><i class="fas fa-image images_icon"></i>Photo</a>
+                                                          <a href="" class="video_link"><i class="fab fa-youtube video_icon"></i>Video</a>
+                                                          <a href="" class="event_link"><i class="fas fa-calendar-week event_icon"></i>Event</a>
+                                                          <a href="" class="write_link"><i class="fas fa-newspaper aticle_icon"></i>Write article</a>
+                                                      </div>
+
+
+                                                  </div> 
+
+                                                
+                                      </div>
+                                      
+                                        
+                                    
+                                      
+                                        
+                                    
+
+                                            <li class="dropdown sort_by_dropdown">
+                                              <a href="#" class="dropdown-toggle sort_by_dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">    
+                                               <div class = "sort_by_box">Sort By: Top <i class="fas fa-chevron-down"></i></div> </a>
+                                              <ul class="dropdown-menu sort_by_dropdown_menu">
+                                                <li><a href="#" class = "top"> Top </a></li>
+                                                <li><a href="#"> Recent</a></li>
+                                              
+                                              </ul>
+                                            </li>
+
+                                        <br>
+                                        
+
+                                      <div class = "linkedin_learning_box ">
+                                          
+                                        <div class="pic_nd_description_box">
+
+                                             
+                                            <div> <a href=""><img src="Images/linklogo.png" class ="brand" alt=""> </a> 
+                                                  
+                                                  <span class ="descrip">
+                                                          
+                                                        <a href="" class="brand_name"> 
+                                                              
+                                                          LinkedIn 
+                                                       
+                                                          <li class="dropdown dot_dropdown">
+                                                            <a href="#" class="dropdown-toggle sort_by_dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">    
+                                                              <i class="fas fa-ellipsis-h brand_name_dots"></i>
+                                                            <ul class="dropdown-menu dot_dropdown_menu dropdown-menu-right">
+                                                              <li class="a"><a href="#" > <i class="far fa-bookmark dropdown_icons"></i>  Save <br> <span> Save for later </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-link dropdown_icons"></i> Copy link to Post   </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-code dropdown_icons"></i>Embed this post <br> <span> Copy and paste embed code on your site </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-flag dropdown_icons"></i> Report this add <br> <span>I dont want to see this ad in my feed </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-align-center dropdown_icons"></i>   Improve my feed <br> <span>Get recommended sources to follow  </span></a></li> <br>
+                                                              <li><a href="#"> <i class="fab fa-google-play dropdown_icons"></i>Why am I seeing this ad? <br><span>Manage your ad preferences  </span> </a></li>
+                                                            
+                                                            </ul>
+                                                          </li>
+                                                  
+                                                           
+                                                            </a>
+                                                            <br>
+                                                              15,456,256 Followers 
+                                                            <br>
+                                                              Promoted 
+                                                          
+                                                          
+                                                  
+                                                  </span>
+
+                                                  <p>Get noticed with Linkedin Premium. Members typically get new jobs twice as fast
+                                                    start your free trial today. <a href="https://www.linkedin.com/showcase/linkedinlearning/">https://linkd.in/dRwy_a7</a> 
+                                                  </p>
+
+                                                  <img src="images/2x more likely.jpeg" class ="linkedin_post_image" alt=""> 
+
+                                                  <a href="" class="total_like"><i class="far fa-thumbs-up"></i></a>
+                                                  <a href="" class="total_love"><i class="far fa-heart"></i></a>
+                                                  <a href=""class="total_clap"><i class="fas fa-hands-wash"></i></a>
+                                                  <span class="total_num">15,925 · 250 comments</span>
+
+                                                  <hr class ="line_breaker">
+
+                                                  <a href="" class="action"><i class="far fa-thumbs-up">Like</i></a>
+                                                  <a href="" class="action"><i class="far fa-comment-dots">Comment</i></a>
+                                                  <a href=""class="action"><i class="fas fa-share"> Share </i></a>
+                                                  <a href=""class="action"><i class="fas fa-paper-plane">Send </i></a>
+
+                                              </div>
+                                           
+
+                                         </div> 
+
+                                      
+                                       </div>  
+
+
+
+                                       <br>
+
+
+
+
+                                     <div class = "random_post_box ">
+                                          
+                                        <div class="pic_nd_description_box">
+
+                                          <p>John Smith  likes this </p>     
+                                          
+                                          <li class="dropdown dot_dropdown">
+                                            <a href="#" class="dropdown-toggle sort_by_dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">    
+                                              <i class="fas fa-ellipsis-h post_dots"></i>
+                                            <ul class="dropdown-menu dot_dropdown_menu dropdown-menu-right">
+                                              <li class="a"><a href="#" > <i class="far fa-bookmark dropdown_icons"></i>  Save <br> <span> Save for later </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-link dropdown_icons"></i> Copy link to Post   </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-code dropdown_icons"></i>Embed this post <br> <span> Copy and paste embed code on your site </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-times-circle dropdown_icons"></i> Unfollow John Smith <br> <span>Stay connected but stop seeing post from John in feed </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-volume-mute  dropdown_icons"></i> Mute Howard Johnson <br> <span>stop seeing post from Howard in feed</span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-eye-slash dropdown_icons"></i>I dont want to see this <br> <span> Let us know why you dont want to see this post </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-flag dropdown_icons"></i> Report this post <br> <span>This post is offensive or account is hacked</span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-eye dropdown_icons" ></i> Who can see this post? <br> <span>Visible to anyone on or off LinkedIn</span> </a></li> <br>
+
+                                            
+                                            </ul>
+                                          </li>
+                                             <hr>
+                                             <br>
+                                            <div> <a href=""><img src="Images/howard.png"class ="post_pro_pic"  alt=""> </a> 
+                                                  
+                                                  <span class ="descrip">
+                                                          
+                                                        <a href="" class="brand_name"> 
+                                                              
+                                                          Howard Johnson · 1st
+                                                       
+                                                       
+                                                  
+                                                           
+                                                            </a>
+                                                            <br>
+                                                             Web developer | Co-founder Azshak Webservices
+                                                            <br>
+                                                            17h · <i class="fas fa-globe-americas"></i>
+                                                          
+                                                          
+                                                  
+                                                  </span>
+
+                                                  <p>For larger organizations and businesses, Web development teams can consist of hundreds of people
+                                                     (Web developers) and follow standard methods like Agile methodologies
+                                                      while developing Web sites. 
+                                                      Smaller organizations may only <a href="">...See More</a>
+                                                  </p>
+
+                                                
+
+                                                  <a href="" class="total_like"><i class="far fa-thumbs-up"></i></a>
+                                                  <a href="" class="total_love"><i class="far fa-heart"></i></a>
+                                                  <a href=""class="total_clap"><i class="fas fa-hands-wash"></i></a>
+                                                  <span class="total_num"> 250</span>
+
+                                                  <hr class ="post–line_breaker">
+
+                                                  <p><a href="" class="quick_comments">Thank you for..</a> 
+                                                    <a href="" class="quick_comments">Love this...</a> 
+                                                    <a href="" class="quick_comments">I think...</a>
+                                                     <a href="" class="quick_comments">This is a great..</a> <i class="fas fa-chevron-right"></i>
+                                                  </p>
+                                                  <br>
+
+
+                                                  <a href="" class="action"><i class="far fa-thumbs-up">Like</i></a>
+                                                  <a href="" class="action"><i class="far fa-comment-dots">Comment</i></a>
+                                                  <a href=""class="action"><i class="fas fa-share"> Share </i></a>
+                                                  <a href=""class="action"><i class="fas fa-paper-plane">Send </i></a>
+
+                                              </div>
+                                                <br>
+
+                                              <div class="form-group comment_input_box_container">
+                                                <img class = "post_profile_image" src="Images/pro.jpeg"  alt="">
+                                                <input type="text" class="form-control comment_input_box" placeholder="Add a comment...">
+                                                       
+                                                          
+                                                              <a  class = "comment_icons1" href=""><i class="far fa-smile-beam"></i></a> 
+                                                              
+                                                              <a   class = "comment_icons2"href=""><i class="fas fa-image"></i></a>
+                                                        
+                                                        
+                                                  
+                                              </div>
+                                           
+
+                                         </div> 
+
+                                      
+                                       </div>
+
+                                            <br>
+
+
+
+                                     <div class = "linkedin_learning_box ">
+                                          
+                                        <div class="pic_nd_description_box">
+
+                                          <p>Ted Conferences Commented on this </p>     
+                                          
+                                          <li class="dropdown dot_dropdown">
+                                            <a href="#" class="dropdown-toggle sort_by_dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">    
+                                              <i class="fas fa-ellipsis-h post_dots2"></i>
+                                            <ul class="dropdown-menu dot_dropdown_menu dropdown-menu-right">
+                                              <li class="a"><a href="#" > <i class="far fa-bookmark dropdown_icons"></i>  Save <br> <span> Save for later </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-link dropdown_icons"></i> Copy link to Post   </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-code dropdown_icons"></i>Embed this post <br> <span> Copy and paste embed code on your site </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-times-circle dropdown_icons"></i> Unfollow John Smith <br> <span>Stay connected but stop seeing post from John in feed </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-volume-mute  dropdown_icons"></i> Mute Howard Johnson <br> <span>stop seeing post from Howard in feed</span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-eye-slash dropdown_icons"></i>I dont want to see this <br> <span> Let us know why you dont want to see this post </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-flag dropdown_icons"></i> Report this post <br> <span>This post is offensive or account is hacked</span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-eye dropdown_icons" ></i> Who can see this post? <br> <span>Visible to anyone on or off LinkedIn</span> </a></li> <br>
+
+                                            
+                                            </ul>
+                                          </li>
+                                             <hr>
+                                             <br>
+
+                                             
+                                            <div> <a href=""><img src="Images/ted.png" class ="brand" alt=""> </a> 
+                                                  
+                                                  <span class ="descrip">
+                                                          
+                                                        <a href="" class="brand_name">
+                                                              
+                                                          Ted Conferences
+                                                        </a>
+                                                          <li class="dropdown dot_dropdown">
+                                                            <a href="#" class="dropdown-toggle sort_by_dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">    
+                                                              
+                                                            <ul class="dropdown-menu dot_dropdown_menu dropdown-menu-right">
+                                                              <li class="a"><a href="#" > <i class="far fa-bookmark dropdown_icons"></i>  Save <br> <span> Save for later </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-link dropdown_icons"></i> Copy link to Post   </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-code dropdown_icons"></i>Embed this post <br> <span> Copy and paste embed code on your site </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-flag dropdown_icons"></i> Report this add <br> <span>I dont want to see this ad in my feed </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-align-center dropdown_icons"></i>   Improve my feed <br> <span>Get recommended sources to follow  </span></a></li> <br>
+                                                              <li><a href="#"> <i class="fab fa-google-play dropdown_icons"></i>Why am I seeing this ad? <br><span>Manage your ad preferences  </span> </a></li>
+                                                            
+                                                            </ul>
+                                                          </li>
+                                                  
+                                                           
+                                                            </a>
+                                                            <br>
+                                                              20,092,048 Followers 
+                                                            <br>
+                                                            17h · <i class="fas fa-globe-americas"></i>
+                                                          
+                                                  
+                                                  </span>
+
+                                                  <p>
+                                                    A one minute TEDx Talk for the digital age | Woody Roseland | TEDxMileHigh <a href="">See More</a>
+                                                  </p>
+
+                                                  <video autoplay class = "embed-responsive-item video" height="290" autoplay  controls>
+                                                    <source src="images/vid1.mp4" type="video/mp4">
+                                                  
+                                                    Your browser does not support the video tag.
+                  
+                                                  </video>
+
+                                                  <a href="" class="total_like"><i class="far fa-thumbs-up"></i></a>
+                                                  <a href="" class="total_love"><i class="far fa-heart"></i></a>
+                                                  <a href=""class="total_clap"><i class="fas fa-hands-wash"></i></a>
+                                                  <span class="total_num">15,925 · 250 comments</span>
+
+                                                  <hr class ="line_breaker">
+
+                                                  <a href="" class="action"><i class="far fa-thumbs-up">Like</i></a>
+                                                  <a href="" class="action"><i class="far fa-comment-dots">Comment</i></a>
+                                                  <a href=""class="action"><i class="fas fa-share"> Share </i></a>
+                                                  <a href=""class="action"><i class="fas fa-paper-plane">Send </i></a>
+
+                                                  <br>
+
+                                                  <br>
+                                                  <div class="form-group comment_input_box_container">
+                                                    <img class = "post_profile_image" src="Images/pro.jpeg"  alt="">
+                                                    <input type="text" class="form-control comment_input_box" placeholder="Add a comment...">
+                                                           
+                                                              
+                                                                  <a  class = "comment_icons1" href=""><i class="far fa-smile-beam"></i></a> 
+                                                                  
+                                                                  <a   class = "comment_icons2"href=""><i class="fas fa-image"></i></a>
+                                                            
+                                                            
+                                                      
+                                                  </div>
+
+                                              
+
+
+
+
+                                              </div>
+                                           
+
+                                         </div> 
+
+                                      
+                                       </div>    <!-- learning box -->
+                                       
+
+                                       <br>
+
+
+
+
+
+
+                                       <div class = "linkedin_learning_box ">
+                                          
+                                        <div class="pic_nd_description_box">
+
+                                          <p> Gray Matip likes this </p>     
+                                          
+                                          <li class="dropdown dot_dropdown">
+                                            <a href="#" class="dropdown-toggle sort_by_dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">    
+                                              <i class="fas fa-ellipsis-h post_dots3"></i>
+                                            <ul class="dropdown-menu dot_dropdown_menu dropdown-menu-right">
+                                              <li class="a"><a href="#" > <i class="far fa-bookmark dropdown_icons"></i>  Save <br> <span> Save for later </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-link dropdown_icons"></i> Copy link to Post   </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-code dropdown_icons"></i>Embed this post <br> <span> Copy and paste embed code on your site </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-times-circle dropdown_icons"></i> Unfollow John Smith <br> <span>Stay connected but stop seeing post from John in feed </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-volume-mute  dropdown_icons"></i> Mute Howard Johnson <br> <span>stop seeing post from Howard in feed</span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-eye-slash dropdown_icons"></i>I dont want to see this <br> <span> Let us know why you dont want to see this post </span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-flag dropdown_icons"></i> Report this post <br> <span>This post is offensive or account is hacked</span> </a></li> <br>
+                                              <li><a href="#"> <i class="fas fa-eye dropdown_icons" ></i> Who can see this post? <br> <span>Visible to anyone on or off LinkedIn</span> </a></li> <br>
+
+                                            
+                                            </ul>
+                                          </li>
+                                             <hr>
+                                             <br>
+
+                                             
+                                            <div> <a href=""><img src="Images/cuban.jpeg" class ="brand" alt=""> </a> 
+                                                  
+                                                  <span class ="descrip">
+                                                          
+                                                        <a href="" class="brand_name">
+                                                              
+                                                          Mark Cuban
+
+                                                        </a>
+                                                       
+                                                          <li class="dropdown dot_dropdown">
+                                                            <a href="#" class="dropdown-toggle sort_by_dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">    
+                                                              
+                                                            <ul class="dropdown-menu dot_dropdown_menu dropdown-menu-right">
+                                                              <li class="a"><a href="#" > <i class="far fa-bookmark dropdown_icons"></i>  Save <br> <span> Save for later </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-link dropdown_icons"></i> Copy link to Post   </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-code dropdown_icons"></i>Embed this post <br> <span> Copy and paste embed code on your site </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-flag dropdown_icons"></i> Report this add <br> <span>I dont want to see this ad in my feed </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-align-center dropdown_icons"></i>   Improve my feed <br> <span>Get recommended sources to follow  </span></a></li> <br>
+                                                              <li><a href="#"> <i class="fab fa-google-play dropdown_icons"></i>Why am I seeing this ad? <br><span>Manage your ad preferences  </span> </a></li>
+                                                            
+                                                            </ul>
+                                                          </li>
+                                                  
+                                                           
+                                                            </a>
+                                                            <br>
+                                                            President
+                                                            Dallas, Texas, United States 
+                                                            <br>
+                                                            10h · <i class="fas fa-globe-americas"></i>
+                                                          
+                                                  
+                                                  </span>
+
+                                                  <p>
+                                                   Here is how much sleep I get every day <a href="">See More</a>
+                                                  </p>
+
+                                                  <video autoplay class = "embed-responsive-item video" height="290" autoplay  controls>
+                                                    <source src="images/Mark.mp4" type="video/mp4">
+                                                  
+                                                    Your browser does not support the video tag.
+                  
+                                                  </video>
+
+                                                  <a href="" class="total_like"><i class="far fa-thumbs-up"></i></a>
+                                                  <a href="" class="total_love"><i class="far fa-heart"></i></a>
+                                                  <a href=""class="total_clap"><i class="fas fa-hands-wash"></i></a>
+                                                  <span class="total_num">25,925 · 193 comments</span>
+
+                                                  <hr class ="line_breaker">
+
+                                                  <a href="" class="action"><i class="far fa-thumbs-up">Like</i></a>
+                                                  <a href="" class="action"><i class="far fa-comment-dots">Comment</i></a>
+                                                  <a href=""class="action"><i class="fas fa-share"> Share </i></a>
+                                                  <a href=""class="action"><i class="fas fa-paper-plane">Send </i></a>
+
+                                                  <br>
+
+                                                  <br>
+                                                  <div class="form-group comment_input_box_container">
+                                                    <img class = "post_profile_image" src="Images/pro.jpeg"  alt="">
+                                                    <input type="text" class="form-control comment_input_box" placeholder="Add a comment...">
+                                                           
+                                                              
+                                                                  <a  class = "comment_icons1" href=""><i class="far fa-smile-beam"></i></a> 
+                                                                  
+                                                                  <a   class = "comment_icons2"href=""><i class="fas fa-image"></i></a>
+                                                            
+                                                            
+                                                      
+                                                  </div>
+
+                                              
+
+
+
+
+                                              </div>
+                                           
+
+                                         </div> 
+
+                                       
+
+                                      
+                                       </div>    <!-- learning box -->
+
+
+                                       <br>
+                                      
+
+
+                                       <div class = "linkedin_learning_box ">
+                                          
+                                        <div class="pic_nd_description_box">
+
+                                             
+                                            <div> <a href=""><img src="Images/acss.png" class ="brand" alt=""> </a> 
+                                                  
+                                                  <span class ="descrip">
+                                                          
+                                                        <a href="" class="brand_name"> 
+                                                              
+                                                          Access Bank
+                                                       
+                                                          <li class="dropdown dot_dropdown">
+                                                            <a href="#" class="dropdown-toggle sort_by_dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">    
+                                                              <i class="fas fa-ellipsis-h post_dots4 "></i>
+                                                            <ul class="dropdown-menu dot_dropdown_menu dropdown-menu-right">
+                                                              <li class="a"><a href="#" > <i class="far fa-bookmark dropdown_icons"></i>  Save <br> <span> Save for later </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-link dropdown_icons"></i> Copy link to Post   </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-code dropdown_icons"></i>Embed this post <br> <span> Copy and paste embed code on your site </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-flag dropdown_icons"></i> Report this add <br> <span>I dont want to see this ad in my feed </span> </a></li> <br>
+                                                              <li><a href="#"> <i class="fas fa-align-center dropdown_icons"></i>   Improve my feed <br> <span>Get recommended sources to follow  </span></a></li> <br>
+                                                              <li><a href="#"> <i class="fab fa-google-play dropdown_icons"></i>Why am I seeing this ad? <br><span>Manage your ad preferences  </span> </a></li>
+                                                            
+                                                            </ul>
+                                                          </li>
+                                                  
+                                                           
+                                                            </a>
+                                                            <br>
+                                                              28,050 Followers 
+                                                            <br>
+                                                            1d · <i class="fas fa-globe-americas"></i>
+                                                          
+                                                          
+                                                  
+                                                  </span>
+
+                                                  <p>This Good Friday, may you obtain abundant life, peace and good health.
+                                                   <a href="" class="">#GoodFriday</a> <a href="" class=""> #HolyFriday</a>  <a href="" class="">#AccessBankGhana</a> 
+                                                  </p>
+
+                                                  <img src="images/Accesspost.jpeg" class ="linkedin_post_image" alt=""> 
+
+                                                  <a href="" class="total_like"><i class="far fa-thumbs-up"></i></a>
+                                                  <a href="" class="total_love"><i class="far fa-heart"></i></a>
+                                                  
+                                                  <span class="total_num">6 · 10 comments</span>
+
+                                                  <hr class ="line_breaker">
+
+                                                  <a href="" class="action"><i class="far fa-thumbs-up">Like</i></a>
+                                                  <a href="" class="action"><i class="far fa-comment-dots">Comment</i></a>
+                                                  <a href=""class="action"><i class="fas fa-share"> Share </i></a>
+                                                  <a href=""class="action"><i class="fas fa-paper-plane">Send </i></a>
+
+                                              </div>
+                                           
+
+                                         </div> 
+
+                                      
+                                       </div>  
+                                       
+                         
+                         
+                        </div>
+
+
+
+
+
+                         <!-- right_column -->
+
+                         <div class="col-lg-4 right_column_box">
+                                  <div class = "add_your_feed_box">
+
+                                          <h5 class = "add_text">Add to your feed <i class="fas fa-info-circle add_to_feed_icon"></i></h5> <br>
+
+                                              <div class = "image_nd_description">
+
+                                                        <span > <img class = "add_to_feed_images "src="images/netflix.jpeg" alt=""> <span class = "follow_company_name">Netflix </span> <br> <span class = "company_description">  Company · Entertainment </span> </span> 
+                                    
+                                                        <button type="button" class="btn btn-primary btn-md follow_btn"> <i class="fas fa-plus follow_plus_icon"></i>Follow</button>  
+                                              </div>
+
+                                          <br>
+                                      
+                                              <div class = "image_nd_description">
+
+                                                <span > <img class = "add_to_feed_images "src="images/apple.png" alt=""> <span class = "follow_company_name">Apple </span> <br> <span class = "company_description">  Company · Technology </span> </span> 
+                            
+                                                <button type="button" class="btn btn-primary btn-md follow_btn"> <i class="fas fa-plus follow_plus_icon"></i>Follow</button>  
+                                              </div>
+
+                                          <br>
+
+
+                                          
+
+
+                                          <br>
+
+                              
+                                          <div class = "image_nd_description">
+
+                                            <span > <img class = "add_to_feed_images "src="images/bill.jpg" alt=""> <span class = "follow_company_name">Bill Gates <i class="fab fa-linkedin linkedin-verified_icon"></i>  </span> <br> <span class = "company_description">  Co-chair, Bill & Melinda Gates Foundation </span> </span> 
+                        
+                                            <button type="button" class="btn btn-primary btn-md follow_btn"> <i class="fas fa-plus follow_plus_icon"></i>Follow</button>  
+                                          </div>
+
+
+                                   </div>
+
+                                    <div class = "most_viewed_courses_box">
+                                      <h4 class= "most_viewed">Todays most viewed courses <i class="fas fa-info-circle most_viewed_icon"></i></h4>
+
+                                      <p> <a href=""  class="courses_box"> <span class = "courses"> 1. The Six Morning Habits of High Pert...</span>
+                                     <span  class="courses_descrip_box"> Pete Mockaitis | How to Be Awesome at Yo.. </span> </a></p>
+
+
+                                     <p> <a href=""  class="courses_box"> <span class = "courses">2. Unconcious Bias <br></span>
+                                      <span  class="courses_descrip_box">  Stacy Gordon </span> </a></p>
+
+                                      <p> <a href=""  class="courses_box"> <span class = "courses">  3. Speaking Confidently and Effectively </span>
+                                        <span  class="courses_descrip_box"> Pete Mockaitis | How to Be Awesome at Yo.. </span> </a></p>
+                                    
+                                   
+                                     
+                                     <p > <a href="" class = "show_more_on"> Show More on LinkedIn Learning <i class="fas fa-arrow-right"></i>  </a>  </p>
+                                    </div>
+
+                                    <div class = "dream_job_image_box">
+
+                                      <img class = "dream_job_image"   src="images/your.png" alt="">
+
+                                    </div>
+                                 
+                                    <div class="footer_stuff">
+                                        <a href="" class="footer_links">Accessbility </a>   <a href="" class="footer_links">About </a> <a href="" class="footer_links">Help Center </a> <br>
+                                        <a href="" class="footer_links">Privacy & Terms <i class="fas fa-chevron-down footer_arrow_icon"></i> </a>     <a href="" class="footer_links">Ad Choices </a> <br>
+                                        <a href="" class="footer_links">Advertising </a>   <a href="" class="footer_links">Business Services <i class="fas fa-chevron-down footer_arrow_icon"></i> </a> <br>
+                                        <a href="" class="footer_links">Get the LinkedIn app </a>   <a href="" class="footer_links"> More </a> <br>
+
+                                        <p> <span class ="linkedIn_footer"> LinkedIn<i class="fab fa-linkedin linkedin-verified_icon"></i></span>  LinkedIn Corporation © 2021</p>
+
+
+
+
+                                    </div>
+                    
+                        </div>
+
+         
+           </div>   <!-- left_column container -->
+  </div>  <!-- class row -->
+ 
+
+        
+</div> <!-- container_fluid main container -->
+
+
+
+ <script src = "js/jquery-3.5.1.min.js"></script>   
+ <script src = "js/bootstrap.js"></script>  
+</body>
+</html>

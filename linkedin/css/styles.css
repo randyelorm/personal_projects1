@@ -1,0 +1,1214 @@
+body {
+    background-color: #EBECF0;
+}
+
+/* Navbar */
+
+.main_container {
+padding:0px;
+}
+
+
+.nav_container{
+    
+margin: 0px;
+padding:0px;
+
+}
+
+
+
+.inside_navbar_container{
+   padding:0px;
+ 
+   
+   
+}
+
+
+
+
+.linkedin-icon {
+
+  
+    margin: 0px;
+    font-size: 37px;   
+    padding: 0px;
+    color:#0e76a8;
+
+}
+
+.search_bar_container {
+
+    padding:0px;
+    padding-top: 17px;
+    margin:0px;
+    position: relative;
+   
+ 
+}
+
+.search_bar {
+    padding-left: 30px;
+    background-color: #eff2f4;
+}
+
+.search_icon {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+
+
+
+.nav_bar_links_box {
+   
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.nav_icon1 {
+
+    font-size: 2rem;
+    padding:0px;
+    right: 10px;
+    
+
+}
+.nav_icon1 {
+
+    font-size: 2rem;
+    padding:0px;
+    margin-left: 10px;
+    
+
+}
+.nav_icon2 {
+
+    font-size: 2rem;
+    padding:0px;
+    margin-left: 30px;
+    
+
+}
+.nav_icon3 {
+
+    font-size: 2rem;
+    padding:0px;
+    margin: 0px;
+    margin-left: 7px;
+    
+
+}
+.nav_icon4 {
+
+    font-size: 2rem;
+    padding:0px;
+    margin-left: 25px;
+    
+
+}
+
+.nav_icon5 {
+
+    font-size: 2rem;
+    padding:0px;
+    margin-left: 27px;
+    
+
+}
+
+.nav_links_text {
+    font-size: 15px;
+    display: block;
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+    
+
+}
+
+.profile_pic {
+    display: block;
+    height:20px;
+ 
+    border-radius: 50%;
+
+}
+
+.me_picture {
+    border-radius: 50%;
+    height:50px;
+}
+
+.randy_dav {
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.me_dropdown_profile_accolades {
+  
+   margin-left: 60px;
+}
+
+.view_pro_btn {
+    width:100%;
+    background-color: white;
+    color:#0e76a8;
+    border-radius: 20px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.account {
+
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.manage {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.sign_out {
+    margin-top: 10px;
+}
+
+
+
+
+.work_dots_icon {
+    margin-left: 7px;
+    font-size: 2rem;
+    display: block;
+}
+
+
+
+.retry_premium_box {
+    font-size: 15px;
+    border-left: 1px solid #DEDEDE;
+}
+
+.retry_premium {
+    color:#614B00;
+}
+
+.free {
+    margin-left: 30px;
+    color:#614B00;
+}
+
+
+
+
+
+/* left column */
+
+.left_column_container {
+
+    position:sticky;
+    top:0;
+    padding: 0px;
+    margin:0px;
+ 
+   
+
+}
+
+.left_column_box1 {
+
+  
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    padding: 0px;
+   border-radius: 10px;
+  
+}
+
+
+
+
+
+
+.back_drop {
+    width:100%;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+
+
+.left_col_pro_image {
+
+border-radius: 50px;
+border: 2px solid white;
+position: absolute;
+top:20px;
+left:57px;
+height:80px;
+
+
+
+}
+
+.pro_name {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.profile_accolades {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color:#777777;
+}
+
+.views_box {
+    padding:10px;
+  
+    }
+
+.profile_views {
+    font-size: 13px;
+    text-decoration: none;
+    
+    color:#777777;
+   
+    
+}
+
+.profile_views:hover {
+    color:#777777;
+    text-decoration: none;
+    background-color: #d3d3d3;
+   
+    
+}
+
+.video_views {
+    font-size: 13px;
+    text-decoration: none;
+    color:#777777;
+}
+
+.video_views:hover {
+    color:#777777;
+    text-decoration: none;
+    background-color: #d3d3d3;
+   
+    
+}
+
+.view_num1 {
+    color:#0e76a8;
+    margin-left: 14px;
+}
+
+.view_num2 {
+    color:#0e76a8;
+    margin-left: 40px;
+}
+
+
+.access_retry_box {
+    padding:10px;
+    
+    
+}
+
+.access_retry_box:hover {
+    background-color: #d3d3d3;
+    color:#777777;
+    
+}
+
+.access_text{
+    font-size: 11px;
+
+    text-decoration: none;
+    color:#777777;
+}
+
+.retry_text {
+    font-size: 11px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+
+}
+
+
+.access_text:hover{
+  
+    color:#777777;
+    text-decoration: none;
+}
+
+.retry_text:hover {
+    color:#0e76a8;
+    
+
+}
+
+
+
+
+.retry_icon {
+    color:#826a21;
+    margin-right: 5px;
+}
+
+.my_items {
+   
+    font-size: 13px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    padding:10px;
+   
+  
+}
+
+.my_items:hover {
+    
+    color:#777777;
+    text-decoration: none;
+   
+  
+}
+
+.items_icon {
+    margin-right: 9px;
+}
+
+
+
+
+
+.left_column_box2 {
+
+    margin-top:10px;
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    padding: 0px;
+   border-radius: 10px;
+   padding-left:10px;
+   padding-top:10px;
+   font-size: 14px;
+}
+
+
+
+
+.recent_arrow_icon {
+
+    margin-left:100px;
+    border-radius: 50px;
+  
+    padding:10px;
+}
+
+.recent_arrow_icon:hover {
+    background-color: #d3d3d3;
+}
+
+
+
+.recents_box > a {
+    color:#777777;
+   
+}
+
+.recents_box > a:hover {
+    text-decoration: none;
+    background-color: #d3d3d3;
+
+}
+
+.recents_icon {
+margin-right: 10px;
+}
+
+
+
+
+
+.groups_text {
+    color:#0e76a8;
+}
+
+.groups_stuff {
+    color:#777777;
+    text-decoration: none;
+}
+.groups_stuff:hover {
+    background-color: #d3d3d3;
+    color:#777777;
+    text-decoration: none;
+}
+
+.groups_text:hover {
+    text-decoration: none;
+    color:#777777;
+   
+}
+
+
+.groups_arrow_icon {
+ 
+    margin-left: 100px;
+    padding:10px;
+    border-radius:50px;
+  
+}
+
+.groups_arrow_icon:hover {
+
+    background-color: #d3d3d3;
+}
+
+.groups_icons {
+    margin-right: 10px;
+    color:#777777;
+}
+
+.see_all_text {
+    margin-left: 25px;
+    color:#777777;
+}
+
+
+
+
+.events {
+    color:#0e76a8;
+    text-decoration: none;
+   
+}
+
+.events:hover {
+    color:#0e76a8;
+    text-decoration: none;
+   
+}
+
+.plus_icon {
+    margin-left: 100px;
+    border-radius: 50px;
+    padding:10px;
+    color:#777777;
+}
+
+
+.events_icon:hover {
+    color:#0e76a8;
+    background-color: #d3d3d3;
+}
+
+
+
+
+.followed_hash_icon {
+    margin-left: 20px;
+    border-radius: 50px;
+    padding:10px;
+    color:#777777;
+}
+
+.followed_text {
+    text-decoration: none;
+    color:#777777;
+
+}
+
+.followed_text:hover {
+    color:#777777;
+    text-decoration: none;
+    background-color: #d3d3d3;
+
+}
+
+
+.followed_hash_icon:hover {
+   
+    background-color: #d3d3d3;
+}
+
+
+.show_more {
+    color:#777777;
+    
+}
+
+.show_more:hover {
+    text-decoration: none;
+    color:#777777;
+    background-color: #d3d3d3;
+    width: 100;
+  
+   
+}
+
+.show_more_icon {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.discover_more {
+    color:#777777;
+    font-size: 19px;
+
+}
+
+.discover_more:hover {
+    color:#777777;
+    text-decoration: none;
+    background-color: #d3d3d3;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Middle column */
+
+
+
+
+.middle_column_box {
+margin-top: 0px;
+}
+
+
+
+.post_box {
+
+    border: 1px solid #d3d3d3; 
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.post_profile_image{
+    height:50px;
+    border-radius: 50px;
+ 
+}
+
+
+.post_input_box {
+
+    width:85%;
+    display:inline;
+    padding:20px;
+    border-radius: 20px;
+    border: 1px solid #d3d3d3; 
+    color:black;
+    
+   
+}
+
+
+
+.photo_link {
+    margin-left: 20px;
+    margin-right: 5px;
+    color:#777777;
+    font-size: 16px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.video_link {
+    margin-left: 20px;
+    margin-right: 5px;
+    color:#777777;
+    font-size: 16px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.event_link {
+    margin-left: 20px;
+    margin-right: 5px;
+    color:#777777;
+    font-size: 16px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+
+.write_link {
+    margin-left: 20px;
+    color:#777777;
+    font-size: 16px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+
+.photo_link:hover {
+  text-decoration: none;
+  color:black;
+  background-color: #F5F5F5; 
+  color:#777777;
+}
+
+.video_link:hover {
+    text-decoration: none;
+  color:black;
+  background-color: #F5F5F5; 
+  color:#777777;
+}
+
+.event_link:hover {
+    text-decoration: none;
+    color:black;
+    background-color: #F5F5F5; 
+    color:#777777;
+}
+
+
+.write_link:hover {
+    text-decoration: none;
+    color:black;
+    background-color: #F5F5F5; 
+    color:#777777;
+}
+
+
+.images_icon{
+margin-right: 5px;
+color:#3C99DC;
+font-size:20px;
+margin-top:0px;
+}
+
+.video_icon {
+    font-size:20px;
+    margin-right: 10px;
+    color:#77dd77;
+}
+
+.event_icon{
+    margin-right: 10px;
+    font-size:20px;
+    margin-right: 10px;
+    color:#ffcc80;
+}
+
+.aticle_icon{
+    margin-right: 10px;
+    font-size:20px;
+    margin-right: 10px;
+    color:#ffb6c1;
+}
+
+
+
+
+
+.sort_by_box{
+    
+    margin-top: 10px;
+    font-size: 12px;
+    color:black;
+  }
+
+.sort_by_dropdown-toggle {
+    text-decoration: none;
+}
+
+.sort_by_dropdown-toggle:hover {
+    text-decoration: none;
+}
+  
+  
+.sort_by_box:before
+{
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 85%;
+    
+  }
+  
+ 
+  
+  .sort_by_dropdown_menu {
+    margin-left: 70%;
+  }
+  
+  
+.top {
+    border-left:3px solid green;
+}
+
+
+
+  
+ /* code to make that annoying dot close to sort line disappear */
+::marker {
+ 
+    color: #EBECF0;
+}
+
+
+
+
+
+
+
+
+.linkedin_learning_box {
+
+    border: 1px solid #d3d3d3; 
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+}
+
+
+
+.brand {
+    height:55px;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+.pic_nd_description_box  > p {
+  
+    display: inline;
+  
+}
+
+.descrip {
+    position: absolute;
+    margin-left: 10px;
+    font-size: 13px;
+    color:#777777;
+
+    
+}
+
+.brand_name {
+   
+   color:black;
+   position: relative;
+}
+
+
+.brand_name_dots {
+    margin-left: 38rem;
+}
+
+
+
+.dot_dropdown {
+    display: inline;
+  
+}
+
+.dot_dropdown_menu {
+    margin-left: 65%;
+   
+
+}
+
+.drop_drop_text{
+
+    display: block;
+    color:#777777;
+    margin-left: 21px;
+    position: absolute;
+    
+}
+
+
+.dropdown_icons {
+   
+    margin-right: 5px;
+    position: relative;
+   
+}
+
+.dot_dropdown_menu > li > a:hover {
+    background-color:transparent;
+}
+
+
+.dot_dropdown_menu > li:hover {
+    background-color:#d3d3d3;
+}
+
+.dot_dropdown_menu > li > a > span {
+    color:#777777;
+    margin-left: 21px;
+}
+.pic_nd_description_box > div > p {
+     margin-top: 10px;
+   
+}
+
+.linkedin_post_image{
+    
+    height:120%;
+    width:100%;
+  
+}
+
+.total_like {
+    
+    padding:2px;
+    background-color: #3C99DC;
+    border-radius: 50px;
+    color:white;
+}
+.total_love {
+    padding:2px;
+    background-color: tomato;
+    border-radius: 50px;
+    color:white;
+}
+
+.total_clap {
+    padding:2px;
+    background-color: green;
+    border-radius: 50px;
+    color:white;
+}
+
+.total_num {
+    color:#777777;
+}
+
+.line_breaker {
+    color:#777777;
+    margin-top: 20px;
+}
+
+.action {
+    color:#777777;
+    font-size: 17px;
+    margin-right: 10px;
+    padding:10px;
+    /* margin-bottom: 30px; */
+    
+}
+
+
+.action:hover {
+    background-color:#d3d3d3;
+    text-decoration: none;
+    border-radius: 10px;
+    color:#777777;
+}
+
+
+
+
+
+.random_post_box{
+
+    border: 1px solid #d3d3d3; 
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+}
+
+
+
+.post_dots {
+    margin-left: 35rem;
+}
+
+
+.post_pro_image {
+    height: 50px;
+
+}
+ .post_pro_pic {
+    height:50px;
+    width:50px;
+    border-radius: 50px;
+}
+
+.post–line_breaker {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.quick_comments {
+    color:#777777;
+    margin-right: 20px;
+    border: 1px solid #777777; 
+    padding: 10px;
+    border-radius: 20px;
+ 
+}
+
+.quick_comments:hover {
+    background-color:#d3d3d3;
+    text-decoration: none;
+    border-radius: 20px;
+    color:#777777;
+ 
+}
+
+.comment_profile_image {
+    height:20px !important;
+    width:50px !important;
+}
+
+.comment_input_box {
+    
+    width:30%;
+}
+
+.comment_input_box {
+
+    width:85%;
+    display:inline;
+    padding:20px;
+    border-radius: 20px;
+    border: 1px solid #d3d3d3; 
+    color:black;
+    position:reltive;
+    
+   
+}
+
+.comment_icons1 {
+    position: absolute;
+    margin-top: 8px;
+    right: 150px;
+    font-size: 25px;
+    color:#777777;
+    
+    
+}
+
+.comment_icons2 {
+    position: absolute;
+    margin-top: 8px;
+    right: 75px;
+    right: 100px;
+    font-size: 25px;
+    color:#777777;
+    
+}
+
+
+.comment_input_box{
+    position: relative;
+}
+
+
+.post_dots2 {
+    margin-left: 25rem;
+}
+
+
+.post_dots3 {
+    margin-left: 35rem;
+}
+
+.post_dots4 {
+    margin-left: 33rem;
+}
+
+
+
+
+/* right_column */
+
+.right_column_box {
+    position:sticky;
+    top:0;
+    margin: 0px;
+    padding: 0px;
+}
+.add_your_feed_box {
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    border-radius:10px;
+    padding:10px;
+}
+
+
+.add_text{
+   font-size: 2rem;
+
+}
+
+.add_to_feed_icon {
+    margin-left: 13rem;
+}
+
+.add_to_feed_images {
+    height: 40px;
+    border-radius: 50px;
+    
+}
+
+
+.follow_company_name {
+   margin-left: 10px; 
+    font-weight: 30px;
+   font-weight: bold;
+
+
+}
+
+.linkedin-verified_icon {
+    height:30px;
+    color:#0e76a8;
+}
+
+
+.company_description {
+
+  display: block;
+   color:#777777;
+   margin-left: 70px;
+
+}
+
+
+    
+
+.follow_btn {
+  
+    margin-left: 68px;
+    border-radius: 50px;
+    background-color: white;
+    color:#777777;
+    border: 1px solid #777777;
+    margin-top: 0px;
+    display: inline;
+    
+
+    
+}
+
+.follow_plus_icon {
+    margin-right: 10px;
+}
+
+
+
+.most_viewed {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.most_viewed_icon {
+    margin-left: 25px;
+}
+
+.most_viewed_courses_box {
+    padding:10px;
+    margin-top: 20px;
+    border: 1px solid #d3d3d3;
+    background-color: white;
+    border-radius:10px;
+}
+
+
+
+
+.courses_box {
+
+color:black;
+text-decoration: none;
+}
+
+.courses_box:hover {
+    background-color: #d3d3d3;
+    color:black;
+    text-decoration: none;
+    
+}
+
+
+.courses_descrip_box {
+ 
+    color:black;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+
+.courses {
+    font-size: 18px;
+}
+
+.show_more_on {
+    margin-top: 30px;
+    color:#777777;
+    margin-left: 20px;
+}
+
+.show_more_on:hover {
+    color:#777777;
+    background-color: #d3d3d3;
+    text-decoration: none;
+}
+
+.dream_job_image_box{
+    
+    margin-top: 20px;
+    border: 1px solid #d3d3d3;
+    background-color: white;
+    border-radius:10px;
+}
+
+.dream_job_image{
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+
+.footer_stuff{
+text-align: center;
+}
+
+.footer_links {
+margin-right: 10px;
+
+color:#777777;
+}
+
+.footer_arrow_icon {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.linkedIn_footer {
+    color:#0e76a8;
+}
