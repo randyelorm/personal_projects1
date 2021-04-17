@@ -1,0 +1,576 @@
+body {
+    background-color:#222222;
+}
+
+
+/* Logo row */
+.logo {
+    margin-top: 20px;
+    width: 100%;
+    height: 80px;
+}
+
+.logo_text {
+    color:white;
+    float:right;
+    font-size: 2rem;
+
+}
+
+.making {
+ color:cadetblue;
+}
+
+.dreams {
+ color:coral;
+}
+
+.come {
+color:darkcyan;
+}
+
+.true {
+color:darkkhaki;
+}
+
+
+
+
+
+/* CodeTrain Evaluation Heading */
+
+.first_row {
+  
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 190px;
+    width: 55%;
+    border: 3px solid orange;
+    border-radius: 1rem;
+}
+
+
+
+.code_programe_text {
+    font-size: 28px;
+    margin-bottom: 0px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.part2 {
+    font-size: 28px;
+    margin-top: 0px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.this_is_text{
+    font-family: 'Slabo 27px', serif;
+    font-size: 17px;
+}
+
+.required {
+    color:red;
+    font-size: 15px;
+    
+
+}
+
+
+
+/* Full_name Row */
+
+.second_row  {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 120px;
+    width: 55%;
+    border: 3px solid darkcyan;
+    border-radius: 1rem;
+}
+
+.second_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.full_name_label {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.fullname_input  {
+    margin:0px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: solid #eeeeee 1px;
+    outline:none;
+  
+
+}
+
+/* Gen Row */
+
+.third_row {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 120px;
+    width: 55%;
+    border: 3px solid rebeccapurple;
+    border-radius: 1rem;
+}
+
+.third_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.Gen_label {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.Gen_input  {
+    margin:0px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: solid #eeeeee 1px;
+    outline:none;
+  
+
+}
+
+/* Programme_rating_Row */
+
+
+.fourth_row  {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 150px;
+    width: 55%;
+    border: 3px solid pink;
+    border-radius: 1rem;
+}
+
+.fourth_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.prog_rating_label {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    font-family: 'Fredoka One', cursive;
+}
+
+.prog_rating_radio1 {
+    margin-left: 45px !important;
+    margin-right:40px !important;
+}
+
+.prog_rating_radio {
+    
+    margin-right:40px !important;
+   
+}
+
+.number1 {
+    margin-left: 142px;
+  
+
+}
+
+
+.numbers {
+    margin-left: 45px;
+   
+}
+
+.poor {
+    margin-left: 60px;
+    margin-right:0px;
+    padding:0px;
+}
+
+
+
+/*  Programme_expectaions_Row */
+
+.fifth_row  {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 150px;
+    width: 55%;
+    border: 3px solid olive;
+    border-radius: 1rem;
+}
+
+.fifth_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.expectation_rating_label {
+    font-size: 20px;
+    margin-top:20px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.expectation_radio_choices{
+
+    font-family: 'Slabo 27px', serif;
+    margin-top: 10px !important;
+
+}
+
+/*  Programme_expectaions_explanation_Row  */
+
+.sixth_row {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 150px;
+    width: 55%;
+    border: 3px solid rebeccapurple;
+    border-radius: 1rem;
+}
+
+.sixth_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.expectation_explain_label {
+    margin-top: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.expectation_explain_input  {
+    margin:0px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: solid #eeeeee 1px;
+    outline:none;
+  
+
+}
+
+/* Learning resources row */
+.seventh_row {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 170px;
+    width: 55%;
+    border: 3px solid gold;
+    border-radius: 1rem;
+}
+
+.seventh_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.useful_resources_label {
+    margin-top: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.useful_resources_input {
+    margin:0px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: solid #eeeeee 1px;
+    outline:none;
+  
+
+}
+
+/* Class_rating */
+
+.useful_resources_label {
+    margin-top: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.eight_row {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 240px;
+    width: 55%;
+    border: 3px solid turquoise;
+    border-radius: 1rem;
+}
+
+.eight_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.classes_rate_label{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.classes_radio_headings {
+    left: 20px !important;
+   
+}
+
+.classes_radios{
+
+    left:20px !important;
+    text-align: center;
+    
+  
+}
+
+
+.last_classes_radio {
+
+left:20px !important;
+
+
+}
+
+
+
+/* Class_improvemnent row */
+
+.ninth_row {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 145px;
+    width: 55%;
+    border: 3px solid grey;
+    border-radius: 1rem;
+}
+
+.ninth_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.Improved_classes_label {
+    margin-top: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.Improved_classes_input {
+    margin:0px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: solid #eeeeee 1px;
+    outline:none;
+  
+
+}
+
+
+/* Teaching fellows feedback row */
+.tenth_row {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 230px;
+    width: 55%;
+    border: 3px solid hotpink;
+    border-radius: 1rem;
+}
+
+.tenth_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.teacher_feedback_label {
+    margin-top: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.teacher_feedback_input {
+    margin:0px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: solid #eeeeee 1px;
+    outline:none;
+  
+
+}
+
+/* CodeTrain Team rating row */
+
+.eleventh_row {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 680px;
+    width: 55%;
+    border: 3px solid darksalmon;
+    border-radius: 1rem;
+}
+
+.eleventh_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.team_rate_label{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.teamrate_radio_headings {
+    left: 20px !important;
+    top: 90px;
+    text-align: center;
+   
+}
+
+.lastbut_one_teamrate_radio_heading {
+    left: 30px !important;
+}
+
+.last_teamrate_radio_heading {
+    top: 90px;
+}
+
+.teamrate_radios{
+
+    left:20px !important;
+    text-align: center;
+    
+} 
+
+.Availability {
+    margin-left: 0px;
+    padding:0px;
+  
+}
+
+
+
+/* Appreciation row */
+
+.Twelveth_row {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 170px;
+    width: 55%;
+    border: 3px solid darkslateblue;
+    border-radius: 1rem;
+}
+
+.Twelveth_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.Appreciation_label {
+    margin-top: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.appreciation_input {
+    margin:0px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: solid #eeeeee 1px;
+    outline:none;
+  
+
+}
+
+
+/* Team improvement Row */
+
+.Thirteenth_row {
+
+    margin-top: 20px;
+    background-color: white;
+    left: 100px;
+    height: 115px;
+    width: 55%;
+    border: 3px solid palegreen;
+    border-radius: 1rem;
+}
+
+.Thirteenth_row:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.help_the_team_label {
+    margin-top: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.help_the_team_input {
+    margin:0px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: solid #eeeeee 1px;
+    outline:none;
+  
+
+}
+
+/* Submit Row */
+.submit_container{
+    margin-top: 20px ;
+    margin-left: 60px;
+}
+
+.submit {
+   
+    width:20%;
+    color:white;
+    background-color: cadetblue;
+}
+
+/* Footer Container */
+
+.footer_container {
+     
+    margin-left: 80px;
+}
+.never_submit {
+margin-top: 20px;
+color:#ABAABA;
+}
+
+.This_content {
+    color:#ABAABA;}
